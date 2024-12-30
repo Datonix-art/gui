@@ -1,0 +1,2 @@
+getgenv().olddata = game:GetService("ReplicatedStorage").References.Comm.Events.SetSettings
+game:GetService("ReplicatedStorage").References.Comm.Events.SetSettings:FireServer(getgenv().olddata)    
